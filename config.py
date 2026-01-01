@@ -38,7 +38,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/ISTKHAR-CODER786/moon",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
@@ -52,8 +52,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IamIstkhar")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+xfr6-ZOTaZVmODU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/best_dealer_hub")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+XIsACwwVfYVjMzE1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -141,4 +141,5 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
